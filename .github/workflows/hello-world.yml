@@ -2,6 +2,7 @@ name: Hello World
 
 on: pull_request
 
+# This workflow runs on pull requests and prints "Hello, World!" to the console.
 jobs:
   hello:
     runs-on: ubuntu-latest
